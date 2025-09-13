@@ -1,6 +1,6 @@
 {
   "name": "bussin-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EventBus, Evented, and StaticEvented for JS apps.",
   "main": "index.js",
   "type": "module",
@@ -16,8 +16,8 @@
   ],
   "author": "pariser",
   "license": "MIT",
-  "homepage": "https://github.com/pariser/bussin",
-  "repository": "https://github.com/pariser/bussin",
+  "homepage": "https://github.com/pariser/bussin-js",
+  "repository": "https://github.com/pariser/bussin-js",
   "devDependencies": {
     "eslint": "^8.27.0",
     "eslint-plugin-import": "^2.26.0",
