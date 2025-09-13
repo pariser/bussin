@@ -46,15 +46,10 @@ class Player extends Evented(['healthChange']) {
     this.health = newHealth;
     this.emit('healthChange', this.health);
   }
-
-  anyHealthRemaining() {
-    return this.health > 0;
-  }
 }
 
 // event subscription
 
-const gameEventBus = new EventBus(['playerDown', 'gameOver']);
 const players = [
   new Player('pariser'),
   new Player('potch'),
@@ -64,10 +59,6 @@ players.forEach(player => {
   player.on('healthChange', newHealth => {
     if (newHealth === 0) {
       console.log(`player ${player.name} is down`);
-    }
-
-    if (allPlayersDown()) {
-      console.log('all players are down, game is over');
     }
   });
 });
