@@ -1,5 +1,5 @@
 {
-  "name": "bussin",
+  "name": "bussin-js",
   "version": "1.0.0",
   "description": "EventBus, Evented, and StaticEvented for JS apps.",
   "main": "index.js",
