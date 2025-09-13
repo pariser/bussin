@@ -13,7 +13,7 @@ $ npm i --save bussin-js
 ### Import
 
 ```js
-import { EventBus, Evented, StaticEvented } from 'bussin';
+import { EventBus, Evented, StaticEvented } from 'bussin-js';
 ```
 
 ### Create an EventBus
